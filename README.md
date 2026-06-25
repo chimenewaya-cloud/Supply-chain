@@ -120,10 +120,33 @@ Identify suppliers that pose quality risks within the supply chain.
 - Provided a framework for supplier evaluation and supply chain optimization.
 
 ---
+## 📊 Visualizations
+
+The analysis results were visualized to improve business understanding and decision-making.
+
+### Supplier Ranking Dashboard
+- Displays supplier performance rankings based on weighted scores.
+- Highlights top-performing and underperforming suppliers.
+
+### Transportation Cost Analysis
+- Compares average costs across transportation modes.
+- Identifies the most cost-efficient shipping methods.
+
+### Defect Rate Analysis
+- Shows supplier quality performance.
+- Highlights suppliers with elevated defect rates and associated risk levels.
+
+### Executive Dashboard
+A consolidated dashboard presenting:
+- Supplier Rankings
+- Transportation Cost Metrics
+- Defect Rate KPIs
+- Cost-to-Revenue Performance Indicators
+
+Screenshots of the dashboard can be found in the `Visualizations/` folder.
 
 ## 📁 Project Structure
 
-```text
 Supply-Chain-Analysis/
 │
 ├── Dataset/
@@ -135,11 +158,28 @@ Supply-Chain-Analysis/
 │   ├── transportation_analysis.sql
 │   └── defect_analysis.sql
 │
+├── Visualizations/
+│   ├── supplier_ranking_chart.png
+│   ├── transport_cost_analysis.png
+│   ├── defect_rate_analysis.png
+│   └── supply_chain_dashboard.png
+│
 ├── Results/
 │   ├── supplier_scorecard.xlsx
-│   └── query_outputs.xlsx
+│   ├── query_outputs.xlsx
+│   └── project_report.pdf
+│
+├── Dashboard/
+│   ├── supply_chain_dashboard.pbix
+│   └── dashboard_screenshots/
+│
+├── Documentation/
+│   ├── business_problem.md
+│   ├── methodology.md
+│   └── findings_and_recommendations.md
 │
 └── README.md
+```
 ```
 
 ---
