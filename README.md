@@ -147,6 +147,7 @@ Screenshots of the dashboard can be found in the `Visualizations/` folder.
 
 ## 📁 Project Structure
 
+```text
 Supply-Chain-Analysis/
 │
 ├── Dataset/
